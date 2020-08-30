@@ -5,7 +5,7 @@
         </svg>
     </div>
 </div>
-<meting-js id="149232428" lrc-type="0" server="netease" theme="#ebebeb" autoplay type="playlist" fixed="true" list-olded="true"></meting-js>
+<!-- <meting-js id="149232428" lrc-type="0" server="netease" theme="#ebebeb" autoplay type="playlist" fixed="true" list-olded="true"></meting-js> !-->
 
 <script src="//cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/jquery-lazyload@1.9.7/jquery.lazyload.min.js"></script>

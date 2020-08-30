@@ -33,10 +33,10 @@ function get_post_view($archive, $r = 0)
 
 function showThumbnail($theurl)
 {
-    echo $theurl . "/assets/img/random/" . rand(1, 25) . ".jpg";
-    // if(rand(1,100) > 50){
-    //     echo $theurl . "/assets/img/random/" . rand(1, 25) . ".jpg";
-    //  }else{
-    //     echo "https://api.e123e.cn/api/api.php/" . rand(1,100);
-    //  }
+   if(rand(1,100) > 50){
+      echo $theurl . "/assets/img/random/" . rand(1, 25) . ".jpg";
+   }else{
+      echo "https://api.e123e.cn/api/api.php/" . rand(1,100);
+   }
+
 }

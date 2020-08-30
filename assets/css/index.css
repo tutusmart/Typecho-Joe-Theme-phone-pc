@@ -1,16 +1,40 @@
-.j-index {
-  padding: 30px 0;
-  width: 1200px;
-  margin: 0 auto;
-  display: flex;
+body{
+ font-size:14px;
 }
-.j-index .main {
-  width: 900px;
-  margin-right: 20px;
-  animation: showByLeft 1s;
+@media screen and ( max-width: 768px ) {
+    ..j-index {
+       width: 1200px;
+       padding: 30px 0;
+       margin: 0 auto;
+       display: flex;
+    }  
+}
+@media screen and ( max-width: 3768px ) {
+    .j-index {
+       width: 100%;
+       padding: 10px 0;
+       margin: 0 auto;
+       justify-content:center;
+       display: flex;
+    }  
+}
+@media screen and ( max-width: 3068px ) {
+ .main {    
+     width: 900px;
+    margin-right: 20px;
+    animation: showByLeft 1s;
+ }
+}
+@media screen and ( max-width: 768px ) {
+    .main {
+       width: 100%;
+       margin-right: 10px;
+      animation: showByLeft 1s;
+    }  
 }
 .j-index .main .article {
   margin-bottom: 20px;
+  font-size: 14px;
 }
 .j-index .main .article li {
   display: flex;
@@ -57,24 +81,41 @@
 .j-index .main .article li .detail .title:hover {
   opacity: 0.85;
 }
-.j-index .main .article li .detail .content {
-  display: -webkit-box;
-  -webkit-line-clamp: 4;
-  -webkit-box-orient: vertical;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  font-size: 14px;
-  color: #666;
-  text-align: justify;
-  margin-bottom: 10px;
-  transition: all 0.3s;
+.j-index .main .article li .detail .content{
+   display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 14px;
+    color: #666;
+    text-align: justify;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+   
 }
+
+@media screen and ( max-width: 768px ) {
+  .j-index .main .article li .detail{
+     width: calc(100% - 175px);   
+  }
+}
+
 .j-index .main .article li .detail .content:hover {
   opacity: 0.85;
 }
 .j-index .main .article li .detail .meta {
   display: flex;
   align-items: center;
+}
+@media screen and ( max-width: 768px ) {
+   .j-index .main .article li .detail .meta {
+     width: calc(100% - 350px);
+     display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    white-space: pre;     
+  }
 }
 .j-index .main .article li .detail .meta .item {
   display: flex;

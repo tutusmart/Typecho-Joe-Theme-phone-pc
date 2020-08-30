@@ -9,10 +9,23 @@
   margin-right: 20px;
   animation: showByLeft 1s;
 }
+@media screen and (max-width: 768px){
+  .j-page {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px 0;
+  }
+  .j-page .main {
+    width: 100%;
+    margin-right: 0;
+    animation: showByLeft 1s;
+  }
+}
 .j-page .main .article {
   border-radius: 6px;
   background: #fff;
   padding: 20px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 .j-page .main .article .header {
@@ -36,6 +49,7 @@
   align-items: center;
   justify-content: center;
   margin: 15px 0;
+  flex-wrap:wrap;
 }
 .j-page .main .article .header ul li {
   margin: 0 10px;

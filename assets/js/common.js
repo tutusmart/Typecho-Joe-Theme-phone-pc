@@ -31,9 +31,9 @@ $(function () {
     }
 
     /* <6> 屏蔽右键按钮 */
-    $(document).on('contextmenu', function () {
-        return false;
-    });
+    // $(document).on('contextmenu', function () {
+    //     return false;
+    // });
 
     /* <7> 点击清空搜索输入框内容 */
     $('#clearInputIcon').on('click', function () {
