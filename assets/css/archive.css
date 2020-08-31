@@ -15,16 +15,16 @@
   }
 }
 .j-archive .main .result-title {
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
-.j-archive .main .result-title h1 {
+.j-archive .main .result-title h4 {
   color: #303030;
   font-weight: 500;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.j-archive .main .result-title h1 span {
+.j-archive .main .result-title h4 span {
   color: #f4645f;
 }
 .j-archive .main .empty {

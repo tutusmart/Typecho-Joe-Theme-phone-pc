@@ -38,10 +38,10 @@
     }
 }
 .j-post .main .article {
-  font-size: 14px;
   border-radius: 6px;
   background: #fff;
   padding: 20px;
+  font-size: 14px;
   margin-bottom: 20px;
 }
 .j-post .main .article .header {
@@ -91,6 +91,11 @@
   border-left: 4px solid #cbcbcb;
   margin: 20px 0;
 }
+.j-post .main .article .markdown blockquote pre{
+    padding: 8px;
+    overflow: auto;
+    max-height: 400px;
+}
 .j-post .main .article .markdown h1,
 .j-post .main .article .markdown h2,
 .j-post .main .article .markdown h3,
@@ -134,6 +139,18 @@
   font-size: 15px;
   font-weight: 500;
 }
+.j-post .main .article .markdown p code {
+    background-color: #fff5f5;
+    color: #ff502c;
+    font-size: .87em;
+    padding: .065em .4em;
+}
+.j-post .main .article .markdown ul li  { 
+  line-height : 24px;
+ }
+.j-post .main .article .markdown p strong {
+ font-weight:600;
+}
 .j-post .main .article .markdown ol {
   padding: 0 40px;
 }
@@ -173,4 +190,21 @@
 }
 .j-post .main .page li a:hover {
   opacity: 0.85;
+}
+
+.j-post .main table{
+  width: 100%;
+  margin: 14px 0;
+  word-break: break-all;
+  border-collapse: collapse;
+}
+.j-post .main table tr td,table tr th{
+  font-weight: normal;
+  padding: 8px;
+  text-align: left;
+  vertical-align: middle;
+  border: 1px solid #dddddd;
+}
+.j-post .main table > tbody > tr:nth-of-type(odd) {
+  background-color: #f9f9f9;
 }

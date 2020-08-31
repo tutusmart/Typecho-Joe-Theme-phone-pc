@@ -3,8 +3,8 @@
         <h3>关于作者</h3>
         <div class="content">
             <div class="user">
-                <img src="//q.qlogo.cn/g?b=qq&nk=2323333339&s=100">
-                <a title="点击联系作者" target="_blank" href="//wpa.qq.com/msgrd?v=3&uin=2323333339&site=qq&menu=yes"><?php $this->author->screenName(); ?></a>
+                <img src="//q.qlogo.cn/g?b=qq&nk=10432845&s=100">
+                <a title="点击联系作者" target="_blank" href="//wpa.qq.com/msgrd?v=3&uin=10432845&site=qq&menu=yes"><?php $this->author->screenName(); ?></a>
                 <p>人生之路，难免坎坷，但我执着</p>
             </div>
             <?php Typecho_Widget::widget('Widget_Stat')->to($quantity); ?>

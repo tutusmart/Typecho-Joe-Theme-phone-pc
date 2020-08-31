@@ -33,10 +33,13 @@ function get_post_view($archive, $r = 0)
 
 function showThumbnail($theurl)
 {
-   if(rand(1,100) > 50){
+  $arr_img = ["meizi", "dongman", "fengjing", "suiji"];
+   if(rand(1,100) > 100){
       echo $theurl . "/assets/img/random/" . rand(1, 25) . ".jpg";
    }else{
-      echo "https://api.e123e.cn/api/api.php/" . rand(1,100);
+      /** http://api.mtyqx.cn/api/random.php **/ 
+      echo "http://api.mtyqx.cn/api/random.php/" . rand(1,100);
+      /** echo "https://api.btstu.cn/sjbz/api.php?lx=" . $arr_img[array_rand($arr_img,1)] . "/" . rand(1,100) ; **/
    }
 
 }

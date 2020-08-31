@@ -14,7 +14,7 @@
     <div class="j-archive">
         <div class="main">
             <div class="result-title">
-                <h1>" <span><?php echo $this->_keywords ?></span> "的相关结果</h1>
+                <h4>" <span><?php echo $this->_keywords ?></span> "的相关结果</h4>
             </div>
             <?php if ($this->have()) : ?>
                 <ul class="article">
